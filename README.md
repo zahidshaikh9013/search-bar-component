@@ -16,7 +16,7 @@ It provides the list of suggestions on the base of the search query for the user
 Steps to use the component in any project : 
 1. Copy the file "truth_database_picker_selection_box.dart" and paste it in any flutter project.
 2. Use the component just like a normal widget. To initialize the widge, use the following code : 
-  
+  ```
    TRUTHDatabasePickerSelectionBox(
      initialValue: "initialSelectionValue",
      suggestionsList: [],
@@ -26,6 +26,7 @@ Steps to use the component in any project :
         print("The index ---> $index and item value ---> $selectedItemValue");
      },
    )
+  ```
 
 # Features
 
