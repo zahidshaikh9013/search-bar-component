@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class SearchbarComponent extends StatefulWidget {
-
   /// [List<String>] which is a [required] param for getting the suggestions list for the component.
   final List<String> suggestionsList;
 
@@ -28,13 +27,11 @@ class SearchbarComponent extends StatefulWidget {
 
   /// [String] which gives the hint for the search bar
   final String hintText;
-  final double? maxSearchResultsHeight;
 
   const SearchbarComponent({
     Key? key,
     required this.suggestionsList,
     required this.hintText,
-    this.maxSearchResultsHeight,
     this.searchBarWidth,
     this.searchBarHeight = 45,
     this.searchBarTextStyle = const TextStyle(color: Colors.blueGrey),
@@ -120,7 +117,9 @@ class SearchbarComponentState extends State<SearchbarComponent> {
         child: Column(
           children: [
             Container(
-              height: widget.maxSearchResultsHeight ?? widget.searchBarHeight * options.length,
+              height: (widget.searchBarHeight * options.length <= widget.searchBarHeight * 6)
+                  ? widget.searchBarHeight * options.length
+                  : (widget.searchBarHeight * 6),
               decoration: BoxDecoration(
                   color: widget.barThemeColor.withOpacity(0.8),
                   borderRadius: BorderRadius.circular(widget.borderRadius),

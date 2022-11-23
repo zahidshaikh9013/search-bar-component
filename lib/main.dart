@@ -47,7 +47,6 @@ class WidgetHomePage extends StatelessWidget {
                         hintText: "Search Project",
                         borderColor: Colors.red,
                         searchBarHeight: 50,
-                        maxSearchResultsHeight: 350,
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.015),
