@@ -1,16 +1,22 @@
-# search_bar_component
+# search-bar-component
 
-A new Flutter project with web support which provides the ui for the search bar with search suggestions
+A new Flutter project which gives the customised search bar component. 
+It provides the list of suggestions on the base of the search query for the user.
 
-## Getting Started
+# Web Demo
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Desktop App Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Search bar component gives the following customisations : 
+
+- Customised width of search bar
+- Customised height of search bar
+- Customised text style of search bar
+- Customised border radius of search bar
+- Customised border color of search bar
+- Customised search bar background color
+
+Few other customised fields like hint text, prefix icon.
