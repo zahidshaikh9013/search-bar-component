@@ -1,13 +1,13 @@
-# search-bar-component
+# search-bar-component :
 
 A new Flutter project which gives the customised search bar component. 
 It provides the list of suggestions on the base of the search query for the user.
 
-# Web Demo
+# Web Demo :
 
 ![](https://github.com/zahidshaikh9013/search-bar-component/blob/main/demo/web_demo.gif)
 
-# Desktop App Demo
+# Desktop App Demo :
 
 ![](https://github.com/zahidshaikh9013/search-bar-component/blob/main/demo/desktop_app_demo.gif)
 
@@ -28,7 +28,7 @@ Steps to use the component in any project :
    );
   ```
 
-# Features
+# Features :
 
 Search bar component gives the following customisations : 
 
