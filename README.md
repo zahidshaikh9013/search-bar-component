@@ -5,8 +5,11 @@ It provides the list of suggestions on the base of the search query for the user
 
 # Web Demo
 
+![](https://github.com/zahidshaikh9013/search-bar-component/blob/main/demo/web_demo.gif)
 
 # Desktop App Demo
+
+![](https://github.com/zahidshaikh9013/search-bar-component/blob/main/demo/desktop_app_demo.gif)
 
 # Features
 
