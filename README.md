@@ -25,7 +25,7 @@ Steps to use the component in any project :
      onChanged: (int index, String selectedItemValue) {
         print("The index ---> $index and item value ---> $selectedItemValue");
      },
-   )
+   );
   ```
 
 # Features
